@@ -1,0 +1,6 @@
+{
+  "name": "弹力解压球",
+  "description": "解压无限裂变弹力球游戏，在巨大透明玻璃容器内碰撞倍增，享受畅快治愈的视觉与音效体验。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

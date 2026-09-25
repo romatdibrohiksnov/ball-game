@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Transparent Glass Container Outer Rim (Safe zone 21..87, center 54,54, radius 28) -->
+    <path
+        android:pathData="M54,26 A28,28 0 1,0 54,82 A28,28 0 1,0 54,26"
+        android:strokeWidth="3.2"
+        android:fillColor="#151D30"
+        android:fillAlpha="0.6">
+        <aapt:attr name="android:strokeColor">
+            <gradient
+                android:startX="26"
+                android:startY="26"
+                android:endX="82"
+                android:endY="82"
+                android:type="linear">
+                <item android:color="#38BDF8" android:offset="0.0" />
+                <item android:color="#818CF8" android:offset="0.5" />
+                <item android:color="#F43F5E" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Glass Specular Highlight Arc -->
+    <path
+        android:pathData="M34,38 A24,24 0 0,1 66,30"
+        android:strokeWidth="2.5"
+        android:strokeColor="#FFFFFF"
+        android:strokeAlpha="0.85"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000" />
+
+    <!-- Multiplying Bouncing Balls Inside -->
+    <!-- Ball 1: Vibrant Cyan -->
+    <path
+        android:pathData="M44,46 A7,7 0 1,0 44,60 A7,7 0 1,0 44,46"
+        android:fillColor="#06B6D4" />
+    <path
+        android:pathData="M42,48 A2,2 0 1,0 42,52 A2,2 0 1,0 42,48"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9" />
+
+    <!-- Ball 2: Neon Pink/Rose -->
+    <path
+        android:pathData="M64,48 A6.5,6.5 0 1,0 64,61 A6.5,6.5 0 1,0 64,48"
+        android:fillColor="#F43F5E" />
+    <path
+        android:pathData="M62,50 A1.8,1.8 0 1,0 62,53.6 A1.8,1.8 0 1,0 62,50"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9" />
+
+    <!-- Ball 3: Electric Amber/Gold -->
+    <path
+        android:pathData="M52,65 A5.5,5.5 0 1,0 52,76 A5.5,5.5 0 1,0 52,65"
+        android:fillColor="#FBBF24" />
+    <path
+        android:pathData="M50.5,67 A1.5,1.5 0 1,0 50.5,70 A1.5,1.5 0 1,0 50.5,67"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9" />
+
+    <!-- Ball 4: Bright Emerald (multiplication clone) -->
+    <path
+        android:pathData="M62,35 A4.5,4.5 0 1,0 62,44 A4.5,4.5 0 1,0 62,35"
+        android:fillColor="#10B981" />
+
+    <!-- Ball 5: Vivid Violet (multiplication clone) -->
+    <path
+        android:pathData="M39,63 A4,4 0 1,0 39,71 A4,4 0 1,0 39,63"
+        android:fillColor="#A855F7" />
+
+    <!-- Collision shockwave / multiplication burst ring -->
+    <path
+        android:pathData="M44,53 A10,10 0 1,0 44,73 A10,10 0 1,0 44,53"
+        android:strokeWidth="1.2"
+        android:strokeColor="#38BDF8"
+        android:strokeAlpha="0.6"
+        android:fillColor="#00000000" />
+
+    <!-- Sparkle / x2 multiplier symbol -->
+    <path
+        android:pathData="M54,40 L55.5,44.5 L60,46 L55.5,47.5 L54,52 L52.5,47.5 L48,46 L52.5,44.5 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.95" />
+</vector>
